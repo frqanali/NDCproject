@@ -1,8 +1,9 @@
 <template>
   <div>
-    <div class="modal-header">
-      <h5 class="modal-title py-4 fs-4 green-text fst-italic">Solar Panel Benefits...</h5>
+    <div class="modal-header" dir="rtl">
+      <h5 class="modal-title py-4 px-5 fs-4 green-text fst-italic">فوائد الألواح الشمسية ...</h5>
     </div>
+
     <div class="row column-gap-5 flex justify-content-center">
       <div class="card border-success mb-3 col-5 w-full">
         <div
@@ -36,8 +37,8 @@
           </svg>
         </div>
         <div class="card-body">
-          <h5 class="card-title text-center fw-bolder fs-4">Energy as a Currency</h5>
-          <p class="card-text text-center">Transactions powered on renewable energy</p>
+          <h5 class="card-title text-center fw-bolder fs-4">الطاقة كعملة</h5>
+          <p class="card-text text-center">المعاملات التي تعمل بالطاقة المتجددة</p>
         </div>
       </div>
 
@@ -65,8 +66,8 @@
           </svg>
         </div>
         <div class="card-body">
-          <h5 class="card-title text-center fw-bolder fs-4">Green Energy Provider</h5>
-          <p class="card-text text-center">Empowering everyone to supply and trade green energy</p>
+          <h5 class="card-title text-center fw-bolder fs-4">مزود الطاقة الخضراء</h5>
+          <p class="card-text text-center">تمكين الجميع من توريد الطاقة الخضراء وتداولها</p>
         </div>
       </div>
 
@@ -95,8 +96,10 @@
           </svg>
         </div>
         <div class="card-body">
-          <h5 class="card-title text-center fw-bolder fs-4">Democratizing Access to Renewables</h5>
-          <p class="card-text text-center">Simple and effortless</p>
+          <h5 class="card-title text-center fw-bolder fs-4">
+            إضفاء الطابع الديمقراطي على الوصول إلى مصادر الطاقة المتجددة
+          </h5>
+          <p class="card-text text-center">بسيط وسهل</p>
         </div>
       </div>
 
@@ -125,9 +128,9 @@
           </svg>
         </div>
         <div class="card-body">
-          <h5 class="card-title text-center fw-bolder fs-4">Growth</h5>
+          <h5 class="card-title text-center fw-bolder fs-4">النمو</h5>
           <p class="card-text text-center">
-            Scalable energy transactions to grow new revenue streams
+            معاملات طاقة قابلة للتطوير لتنمية تدفقات إيرادات جديدة
           </p>
         </div>
       </div>
@@ -136,6 +139,6 @@
 </template>
 <style>
 .green-text {
-  color: green;
+  color: rgb(32, 150, 32);
 }
 </style>

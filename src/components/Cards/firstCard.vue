@@ -1,19 +1,5 @@
 <template>
   <div class="card flex flex-row items-center card text-bg-success rounded-4">
-    <div class="card-body flex flex-row justify-between w-full">
-      <div class="flex-1 flex flex-col gap-5">
-        <h2 class="card-title fw-bold fs-1 pt-5 ps-5">We transform energy into currency</h2>
-        <p class="card-text fs-4 lh-lg pt-2 pe-5 ps-5">
-          backbone.one converts every energy transaction into monetary value. We are dedicated to
-          democratizing access to renewable energy and laying the groundwork for innovative business
-          models in the Internet of Energy.
-        </p>
-      </div>
-      <div class="flex-1 text-right pt-4 ps-5">
-        <a href="#" class="btn btn-light btn-lg btn-outline-success rounded-pill">Go somewhere</a>
-      </div>
-    </div>
-
     <div class="card-body flex-1">
       <div class="background">
         <div class="cardWrapper">
@@ -44,6 +30,20 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="card-body flex flex-row justify-between w-full">
+      <div class="flex-1 flex flex-col gap-5">
+        <h2 class="card-title fw-bold fs-1 pt-5 pe-5" style="text-align: right">
+          نحول الطاقة إلى عملة
+        </h2>
+        <p class="card-text fs-4 lh-lg pt-2 pe-5" style="text-align: right">
+          يحول كل معاملة طاقة إلى قيمة نقدية. نحن ملتزمون ب إضفاء الطابع الديمقراطي على الوصول إلى
+          الطاقة المتجددة وإرساء الأساس للأعمال المبتكرة نماذج في إنترنت الطاقة.
+        </p>
+      </div>
+      <div class="flex-1 text-right pt-4 pe-5" style="text-align: right">
+        <a href="#" class="btn btn-light btn-lg btn-outline-success rounded-pill">المزيد</a>
       </div>
     </div>
   </div>

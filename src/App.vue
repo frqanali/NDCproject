@@ -1,18 +1,20 @@
 <template>
   <navBar />
-  <div class="container flex m-5">
+  <div class="container flex my-5 g-4">
     <firstCard />
-  </div>
-  <div class="container flex m-5">
+
     <secondCard />
-  </div>
-  <div class="container flex m-5"><thirdCard /></div>
-  <div class="container flex m-5">
+
+    <thirdCard />
+
     <fourthCard />
-  </div>
-  <div class="container flex m-5">
+
     <fifthCard />
+
+    <sixthCard />
   </div>
+
+  <footerCard />
 </template>
 
 <script lang="js" setup>
@@ -22,4 +24,6 @@ import secondCard from './components/Cards/secondCard.vue'
 import thirdCard from './components/Cards/thirdCard.vue'
 import fourthCard from './components/Cards/fourthCard.vue'
 import fifthCard from './components/Cards/fifthCard.vue'
+import sixthCard from './components/Cards/sixthCard.vue'
+import footerCard from './components/Cards/footerCard.vue'
 </script>
