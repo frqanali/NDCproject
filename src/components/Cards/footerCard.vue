@@ -11,7 +11,9 @@
             <h5 class="mb-3 text-light" style="text-align: right">الروابط</h5>
             <ul class="list-unstyled mb-0">
               <li class="mb-1">
-                <a href="#!" style="color: white; text-align: right">التصنيف</a>
+                <a href="#!" style="color: white; text-align: right; text-decoration: none"
+                  >التصنيف</a
+                >
               </li>
               <li class="mb-1">
                 <a href="#!" style="color: white; text-align: right; text-decoration: none"
@@ -19,7 +21,9 @@
                 >
               </li>
               <li>
-                <a href="#!" style="color: white; text-align: right">الامان</a>
+                <a href="#!" style="color: white; text-align: right; text-decoration: none"
+                  >الامان</a
+                >
               </li>
             </ul>
           </div>
@@ -29,8 +33,8 @@
               الطاقة المستدامة
             </h5>
             <p>
-              نتابليبسيلاتنم تلاناغتالبسيلاتت لبقاغعلغههخت ليبقاغعتعن بقغفغعهنخ بالغتنم غفعهخح
-              قغفغعهخ لفغاهنهمخ
+              نحن نتصور عالما تغذيه بالكامل بالطاقة المتجددة. تقوم بصياغة البنية التحتية الرقمية
+              .لتمكين الأفراد والشركات على مستوى العراق من جني الأموال من خلال تبني الاستدامة.
             </p>
           </div>
         </div>

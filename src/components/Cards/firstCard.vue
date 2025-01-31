@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="card-body flex flex-row justify-between w-full">
+    <div class="card-body flex flex-row justify-between">
       <div class="flex-1 flex flex-col gap-5">
         <h2 class="card-title fw-bold fs-1 pt-5 pe-5" style="text-align: right">
           نحول الطاقة إلى عملة
