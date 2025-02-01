@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" dir="rtl">
     <div class="container-fluid px-5">
-      <a class="navbar-brand fs-4 pe-5" href="#" style="text-align: right">مشروع الطاقة الشمسية</a>
+      <a class="navbar-brand fs-4" href="#" style="text-align: right">مشروع الطاقة الشمسية</a>
       <button
         class="navbar-toggler"
         type="button"

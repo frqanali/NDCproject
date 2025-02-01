@@ -1,6 +1,7 @@
 <template>
-  <div class="card flex flex-row items-center card text-bg-success rounded-4">
-    <div class="card-body flex-1">
+  <div class="card d-flex flex-column flex-md-row align-items-center text-bg-success rounded-4 p-4">
+    <!-- Animation Section -->
+    <div class="card-body col-12 col-md-6 d-flex justify-content-center">
       <div class="background">
         <div class="cardWrapper">
           <div class="rotate">
@@ -32,18 +33,20 @@
         </div>
       </div>
     </div>
-    <div class="card-body flex flex-row justify-between">
-      <div class="flex-1 flex flex-col gap-5">
-        <h2 class="card-title fw-bold fs-1 pt-5 pe-5" style="text-align: right">
+
+    <!-- Text Content Section -->
+    <div class="card-body col-12 col-md-6 d-flex flex-column justify-content-between p-4">
+      <div>
+        <h2 class="card-title fw-bold fs-1 text-md-end text-center">
           نحول الطاقة إلى عملة
         </h2>
-        <p class="card-text fs-4 lh-lg pt-2 pe-5" style="text-align: right">
-          يحول كل معاملة طاقة إلى قيمة نقدية. نحن ملتزمون ب إضفاء الطابع الديمقراطي على الوصول إلى
+        <p class="card-text fs-4 lh-lg text-md-end text-center">
+          يحول كل معاملة طاقة إلى قيمة نقدية. نحن ملتزمون بإضفاء الطابع الديمقراطي على الوصول إلى
           الطاقة المتجددة وإرساء الأساس للأعمال المبتكرة نماذج في إنترنت الطاقة.
         </p>
       </div>
-      <div class="flex-1 text-right pt-4 pe-5" style="text-align: right">
-        <a href="#" class="btn btn-light btn-lg btn-outline-success rounded-pill">المزيد</a>
+      <div class="text-md-end text-center">
+        <a href="#" class="btn btn-outline-light btn-lg rounded-pill">المزيد</a>
       </div>
     </div>
   </div>
@@ -54,21 +57,12 @@
 <style scoped>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400);
 
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  font-size: 14px;
-}
+
 
 .background {
-  position: relative;
-  background: linear-gradient(to bottom, #222 100%);
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
