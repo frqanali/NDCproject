@@ -55,7 +55,7 @@
 <script lang="js" setup></script>
 
 <style scoped>
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400);
+
 
 
 

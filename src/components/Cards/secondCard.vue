@@ -28,4 +28,9 @@
 
 <script lang="js" setup></script>
 
-<style></style>
+<style>
+body {
+    font-family: 'Almarai', sans-serif;
+  }
+
+</style>
